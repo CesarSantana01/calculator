@@ -1,0 +1,103 @@
+body{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(20, 20, 20)
+    ;
+}
+
+#main_container{
+    display: flex;
+    align-items: center;    flex-direction: column;
+    background-color: maroon;
+    height: 600px;
+    width: 500px;
+    border-radius:30px;
+    box-shadow: 5px 6px rgb(87, 0, 0),
+                0px 0px 30px rgba(0, 0, 0, 0.503) inset;
+    
+    
+}
+#screen{
+    display: flex;
+    flex-direction: column;
+    height: 100px;
+    width: 400px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 20px rgb(0, 0, 0) inset;
+    background-color: rgb(43, 0, 0);
+    margin-top: 20px;
+    
+    padding: 10px;
+}
+#cont1{
+align-self: flex-end;
+font-size: 30px;
+color: rgb(200, 0, 0);
+text-shadow: 0px 0px 5px rgb(225, 0, 0);
+
+}
+#cont2{
+    color:red;
+    text-shadow: 0px 0px 5px rgb(225, 0, 0);
+
+align-self: flex-end;
+font-size: 45px;
+padding-top: 5px;
+}
+
+#button_container{
+   display: flex;
+    margin-top:10px ;
+   
+}
+
+button{
+    border-radius: 10px;
+    box-shadow: 4px 4px 7px black,
+                0px 0px 30px rgb(170, 1, 1) inset;
+    border-bottom:3px solid maroon ;
+    border-right: 3px solid maroon;
+    border-top:none;
+    border-left: none;
+    background-color: rgb(112, 1, 1);
+    display: flex;
+    height: 80px;
+    width: 80px;
+    margin: 5px;
+    color: rgb(255, 0, 0);
+    text-shadow: 0px 0px 5px rgb(225, 0, 0);
+    font-size: 40px;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+button:hover{
+    transform: scale(1.03);
+    
+}
+
+
+#col1{
+    display: flex;
+    flex-direction: column;
+}
+#col2{
+    display:flex;
+    flex-direction:column;
+    
+
+}
+
+#col3{
+    display:flex;
+    flex-direction: column;
+
+}
+
+#col4{
+    display:flex;
+    flex-direction: column;
+
+}
+
+
